@@ -176,7 +176,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreDestruction: 10
   playerLifeLost: 1
-  bonus: {fileID: 5559453776210500126, guid: e7a60ec37ec246a48994f0b0f0eb26bf, type: 3}
 --- !u!114 &7798648472858968106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  lifeTime: 15
+  lifeTime: 6
 --- !u!114 &766483987917876342
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -53,4 +53,10 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(waveTime);
         }
     }
+
+    public void restartWaves()
+    {
+        StopCoroutine(generateWave());
+        StartCoroutine(generateWave());
+    }
 }

@@ -50,4 +50,15 @@ public class InfosPlayer : MonoBehaviour
 
         gui.updateLife(life);
     }
+
+    public void restart()
+    {
+        life = maxLife;
+        score = 0;
+        gameScript.IsInGame = true;
+        gameScript.restartWaves();
+        gui.updateLife(life);
+        gui.updateScore(score);
+        gui.hideGameOver();
+    }
 }

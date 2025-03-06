@@ -45,4 +45,9 @@ public class InterfaceController : MonoBehaviour
     {
     
     }
+
+    public void hideGameOver()
+    {
+        panelGameOver.SetActive(false);
+    }
 }
